@@ -13,7 +13,7 @@ from PIL import Image
 image_path = 'assets/lenna.png' # Path to the input image
 output_path = image_path.split('.')[0] + '.txt' # Path to save the output text file
 ascii_chars = "MNHQ$OC?7>!:-:. "# ASCII characters sorted from dense to sparse. e.g. "MNHQ$OC?7>!:-:. ""@?>!-. "
-resized_height = 255      # Height of the resized image
+resized_height = 255      # Output height (lines)
 aspect_ratio = 1.8        # Aspect ratio of characters (height / width)
 
 # Open and resize the image, convert it to grayscale
